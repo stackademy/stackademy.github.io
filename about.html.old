@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>About | Learn to code in Berlin | Stackademy</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/entypo.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.css">	
+	<link rel="stylesheet" href="stylesheets/style.css">
+	
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
+
+	<!--[if IE]>
+	<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Lato:400italic" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css">	
+	<link href="http://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Lato:700italic" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet" type="text/css">
+	<![endif]-->
+
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="stylesheets/entypo-ie7.css">
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+
+	<!-- JS
+	================================================== -->
+	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-2.0.0.min.js"></script>
+	<script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js/jquery.min.js"><\/script>')</script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.pack.min.js"></script>	
+	<script type="text/javascript" src="js/retina.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	
+	<!-- ** segment.io **
+	<script type="text/javascript">
+		 var analytics=analytics||[];(function(){var e=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group"],t=function(e){return function(){analytics.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var n=0;n<e.length;n++)analytics[e[n]]=t(e[n])})(),analytics.load=function(e){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+e+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)};
+		 analytics.load("7p2lpn7na7");
+	</script>
+	-->
+
+
+	<!-- Google Analytics
+	================================================== -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-40659788-1', 'stackademy.com');
+	  ga('send', 'pageview');
+	  ga('set', 'anonymizeIp', true);
+
+	</script>
+
+
+</head>
+<body class="about">
+
+	<div class="sticky">
+		<div class="band header">
+			<header class="container main clearfix">
+				<div class="sixteen columns">
+					<h1 class="logo"><a href="index.html">Stackademy</a></h1>
+					<nav class="navigation">
+						<ul>
+							<li class="item"><a href="http://blog.stackademy.com" target="_blank">Blog</a></li>
+							<li class="item"><a href="index.html">Home</a></li>											
+							<li class="item"><a href="faqs.html">FAQs</a></li>
+							<li class="item"><a class="anchorLink" href="#contact">Contact</li></a>	
+							<li class="item omega"><a class="apply omega" href="apply.html">Apply</a></li>
+						</ul>															
+					</nav>
+				</div>
+			</header><!-- end container -->
+		</div><!-- end band -->	
+	</div>
+	
+	<div class="band section liner anchorTarget" id="top" name="top">
+		<section class="container">
+			<div class="eight columns">
+			</div> <!-- end ten -->
+		</section>
+	</div>
+	
+	<div class="band section content">
+		<section class="container">
+			<div class="eight columns clearfix">
+				<h2 class="eheading">About us</h2>
+				<hr />
+			</div>
+			<div class="twelve columns">
+				<div class="about">
+					<h2 class="aboutheading pmarker">Hi there!</h2>
+					<div id="aboutintro">
+						<div class="text jus">
+							<p>I am Jonas, the founder and one of the people behind the Stackademy courses.</p> 
+							<p>At <span class="strong">Stackademy</span>, all our courses are (1) full-time, (2) intense, (3) current and (4) made for practice, taught and managed 100% in Berlin, Europe's fast-growing startup hub. 
+							<br />All of our instructors develop and work on real-world projects in addition to teaching, so your course is always rooted in the practice. We add one important distinction: every one of our courses is generally run one time only, 
+							so that we can keep our curriculum current and find the right instructor for each turn. <br /><a href="http://eepurl.com/yvsYz" target="_blank">Sign up for our newsletter</a> and we will let you know once a new course opens up for application.</p>
+							
+							<p>I encourage you to take a look at our program details. If you have any question at all, please contact me at my personal email address at any time: <script type="text/javascript">eval(unescape("%64%78%71%79%78%38%32%3d%5b%27%25%36%61%25%36%66%25%36%65%25%36%31%25%37%33%27%2c%5b%27%25%36%33%25%36%66%25%36%64%27%2c%27%25%37%33%25%37%34%25%36%31%25%36%33%25%36%62%25%36%31%25%36%34%25%36%35%25%36%64%25%37%39%27%5d%2e%72%65%76%65%72%73%65%28%29%2e%6a%6f%69%6e%28%27%2e%27%29%5d%2e%6a%6f%69%6e%28%27%40%27%29%3b%71%75%78%62%61%31%38%3d%75%6e%65%73%63%61%70%65%28%64%78%71%79%78%38%32%29%3b%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%71%75%78%62%61%31%38%2e%6c%69%6e%6b%28%27%6d%61%69%27%2b%27%6c%74%6f%3a%27%2b%64%78%71%79%78%38%32%29%29%3b"));</script></p>
+							
+							<p class="">If you are unsure whether learning to code is right for you: <a href="javascript:toggleDiv('story')">Read on.</a></p>
+						</div>	
+						
+						<div id="story" class="text jus">
+							<p>Have you considered learning to code? If so, I don't need to tell you that this is one of the best ways of unlocking potential previously out of reach.
+							Web technologies are becoming more diverse and powerful by the day, and third-party services make it easier than ever to integrate complex features without hassle.</p>
+							<p>If you haven't thought about starting to program, I encourage you to read Marc Andreessen's op-ed in the Wall Street Journal on how <a href="http://pastebin.com/MbFGXg1r" target="_blank">software is eating the world</a>. <br />
+							It might surprise you, but the people behind some of the most powerful products on the internet are far from being experts in computer science: <br />
+							<p><span class="strong">Dennis Crowley</span>, the founder of Foursquare, knew enough PHP and MySQL to hack together a rough prototype. </p>
+							<p><span class="strong">Kevin Systrom</span> of Instagram started programming as a kid but quit his Stanford CS class for Management Science &amp; Engineering after seeing many <a href="http://www.quora.com/Kevin-Systrom-For-how-long-have-you-been-coding-and-how-did-you-get-started-with-coding" target="_blank">"fantastically smart people"</a>
+							in that group in the first quarter.</p>
+							<p>If you can work on your ideas and turn them into code, there are no limits to where it will take you. And at <span class="strong">Stackademy</span>, no matter the program, the focus is always on teaching you skills you can apply. <br />
+							Just as important, our courses are based in Berlin, a city that is all about reinventing yourself in the first place.</p>
+							<p><br />So: take a look at our courses and if you want to seize this opportunity, <a href="apply.html">apply</a>. If you are still looking for more, contact me personally at <script type="text/javascript">eval(unescape("%64%78%71%79%78%38%32%3d%5b%27%25%36%61%25%36%66%25%36%65%25%36%31%25%37%33%27%2c%5b%27%25%36%33%25%36%66%25%36%64%27%2c%27%25%37%33%25%37%34%25%36%31%25%36%33%25%36%62%25%36%31%25%36%34%25%36%35%25%36%64%25%37%39%27%5d%2e%72%65%76%65%72%73%65%28%29%2e%6a%6f%69%6e%28%27%2e%27%29%5d%2e%6a%6f%69%6e%28%27%40%27%29%3b%71%75%78%62%61%31%38%3d%75%6e%65%73%63%61%70%65%28%64%78%71%79%78%38%32%29%3b%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%71%75%78%62%61%31%38%2e%6c%69%6e%6b%28%27%6d%61%69%27%2b%27%6c%74%6f%3a%27%2b%64%78%71%79%78%38%32%29%29%3b"));</script>.</p>
+
+
+						</div>
+						<div class="imgsig">
+							<!-- <p class="signature">- <span class="strong">jonas</span></p> -->
+							<img id="jsig" src="img/jsignt.png" width="70" height="77" alt="" />
+						</div>
+					</div>
+				</div> <!-- end about -->	
+			</div> <!-- end twelve cols -->	
+
+			<div class="twelve columns">
+				<div class="about">
+					<h2 class="category">Our home: Berlin</h2>	
+					<div id="berlin" class="text jus">	
+						<p><span class="strong">Berlin</span> has found itself as a dynamic and growing startup hub, open to international founders and companies setting up shop here.<br /> 
+						If you haven't been, you will find Berlin a great place to be. From fashion and music to arts, the maker community and the obligatory third-wave coffee culture, Berlin is a city full of experimentation and creativity. And while we don't want you to lose focus, Berlin does have great clubs, bars, and events to unwind.</p>
+						<p>It is also the right place to get involved with startups: not only are major companies like Google, Amazon, Twitter and Microsoft present in Berlin, it is also home to startups such as <a href="https://readmill.com/" target="_blank">Readmill</a>, 
+						<a href="http://eyeem.com/" target="_blank">Eyeem</a>, <a href="http://researchgate.net/" target="_blank">ResearchGate</a>, <a href="https://soundcloud.com/" target="_blank">Soundcloud</a> and <a href="https://wooga.com/" target="_blank">Wooga</a>, who are paving the way for more to come. <br /> 
+						Which puts you in good company if you decide to follow <a href="http://techcrunch.com/2013/06/04/berlins-network-effect-will-make-it-a-global-startup-center/" target="_blank">Matt Cohler's advice</a>: <br /> "If for some reason you don't want to (or can't) come to 
+						San Francisco, then head to Berlin. All of the key ingredients are there. These are still the early days, and it's good to be in on the ground floor."</p>
+
+						<figure class="imgcontent">
+							<img src="img/bgate.png" width="700" height="260" alt="berlin" />
+							<figcaption class="credit">Image by <a href="http://www.flickr.com/photos/hhoyer/7095646885/" title="Berlin" target="_blank">Harald Hoyer</a> via flickr.com | CC BY-SA 2.0</figcaption>
+						</figure>
+						<!-- <p>For the dedicated guest lectures, we look forward to hearing from - amongst others - <a href="http://moped.com" target="_blank">Moped</a> founder <span class="strong">Schuyler Deerman</span> and 
+						<a href="http://justbook.com" target="_blank">JustBook</a> co-founder <span class="strong">Sebastian Fallert</span>, who both moved from a background in tech to new responsibilities as entrepreneurs
+						 in their respective startups.</p>		 -->					
+					</div>
+						
+					<p><a href="#top" class="toplink anchorLink"><span class="entypo">8</span> back to top</a></p>				
+				</div> <!-- end about -->
+			</div> <!-- end twelve -->
+						
+		</section>
+	</div>
+	
+	<div class="band section">
+		<section class="container">
+			<div class="sixteen columns filler">
+			</div> <!-- end sixteen -->
+		</section>
+	</div>	
+
+
+<div class="band footer">
+	<footer class="primaryfooter container main">					
+		<div class="six columns flogo">
+			<h3 class="logo"><a class="anchorLink" href="#top">Stackademy</a> </h3>				
+		</div>
+		
+				
+		<div class="sixteen columns" id="contact">
+			<ul id="navrow">
+				<li class="footerlink"><a href="index.html">Home</a></li>
+				<!-- <li class="footerlink"><a href="about/">About us</a></li>  -->
+				<li class="footerlink"><a class="blue" href="apply.html">Apply!</a></li>							
+			</ul>
+			<ul class="ful">
+				<li class="contact linked"><a href="https://www.twitter.com/stackademy" target="_blank"><span class="entypo twitter">t</span></a></li>		
+				<li class="contact linked">Contact <span class="eml"><script type="text/javascript">eval(unescape("%6b%63%74%72%71%39%32%3d%5b%27%25%36%38%25%36%35%25%36%63%25%36%63%25%36%66%27%2c%5b%27%25%36%33%25%36%66%25%36%64%27%2c%27%25%37%33%25%37%34%25%36%31%25%36%33%25%36%62%25%36%31%25%36%34%25%36%35%25%36%64%25%37%39%27%5d%2e%72%65%76%65%72%73%65%28%29%2e%6a%6f%69%6e%28%27%2e%27%29%5d%2e%6a%6f%69%6e%28%27%40%27%29%3b%6f%6d%63%75%67%30%35%3d%75%6e%65%73%63%61%70%65%28%6b%63%74%72%71%39%32%29%3b%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%6f%6d%63%75%67%30%35%2e%6c%69%6e%6b%28%27%6d%61%69%27%2b%27%6c%74%6f%3a%27%2b%6b%63%74%72%71%39%32%29%29%3b"));</script></span></li>							
+			</ul>
+		</div>		
+	</footer>
+	
+	<footer class="secondaryfooter">
+		<div class="container main">
+			<div class="eight columns fimp">
+				<span class="impr linked"><a href="imprint.html">Imprint<span class="separator"> / </span>Impressum</a></span>		
+				<span class="prvcy linked"><a href="privacy.html">Privacy policy<span class="separator"> / </span>Datenschutzerkl&auml;rung</a></span>						
+			</div>
+			<div class="eight columns cc">
+				A<a href="" target="_blank"><img class="robologo" src="img/robocomobo.svg" width="auto" height="12" alt="robocomobo"/></a> site.
+			</div>
+		</div>
+	</footer>
+	<!-- end container -->
+</div><!-- end footer band -->
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>	

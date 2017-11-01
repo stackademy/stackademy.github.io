@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <link href="http://maps.gstatic.com/favicon3.ico" rel="shortcut icon">
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?sensor=true">
+    </script>
+     <!-- 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+      -->
+  </head>
+
+  <body>
+    <div class="row">
+    <h1>Mapmania!</h1>
+
+    <div class="input-group">
+      <input type="text" class="inputfield" name="start" id="start" placeholder="Start">
+      <input type="text" class="inputfield" name="destination" placeholder="Destination" id="destination">
+      <input type="submit" name="submit" id="connect" value="Connect!">
+    </div>
+
+    <div id="map-canvas"></div>
+
+
+      <footer>
+        A mini app by <a href="https://twitter.com/jdker">@jdker</a>. Built at <a href="http://stackademy.com">Stackademy</a>.
+      </footer>
+    </div>
+    <script src="search.js"></script>
+  </body>

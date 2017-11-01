@@ -1,0 +1,65 @@
+body {
+  background: white;
+  font-family: 'Open Sans';
+}
+
+h1 {
+  color: #141414;
+  border-bottom: #141414 3px solid;
+  margin: 0 0 2em;
+}
+
+.row {
+  width: 600px;
+  margin: 0 auto 0 100px;
+}
+
+.rt {
+  font-weight: 700;  
+  text-align: center;
+  margin: 1.2em 0 0;    
+}
+
+.resulttext {
+  color: #186FA8;
+  font-size: 26px;
+}
+
+.result {
+  color: #EF4056;
+  font-size: 64px;
+  margin: 0.4em 0 0;
+
+}
+
+.blink {
+  animation: blink 1s steps(5, start) infinite;
+  -webkit-animation: blink 1s steps(5, start) infinite;
+}
+@keyframes blink {
+  to { visibility: hidden; }
+}
+@-webkit-keyframes blink {
+  to { visibility: hidden; }
+}
+
+.noblink {
+  animation: none;
+}
+
+footer {
+  font-size: 14px;
+  margin: 7em 0 0;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #141414;
+  font-weight: 700;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #186FA8;
+}

@@ -1,0 +1,217 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/*
+* This project uses pattern files from http://subtlepatterns.com/.
+* Subtle Patterns by Subtle Patterns 
+* is licensed under a 
+* Creative Commons Attribution-ShareAlike 3.0 Unported License.
+* http://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+*
+* Many thanks to Atle Mo and the pattern designers!
+*/
+
+
+/* Table of Content
+==================================================
+	#Typography
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+
+/* #Typography / baseline corrections
+================================================== */
+
+h1 { line-height: 49px; margin-bottom: 14px; }
+h2 { line-height: 42px; margin-bottom: 7px; }
+h3 { line-height: 35px; margin-bottom: 7px; }
+h4 { line-height: 28px; margin-bottom: 7px; }
+h5 { line-height: 21px;  }
+
+p { margin: 0 0 21px 0; }
+p.lead { line-height: 28px; }
+
+blockquote, blockquote p { line-height: 21px; }
+blockquote { margin: 0 0 21px; padding: 7px 20px 0 19px; }
+
+hr { margin: 14px 0 28px; }
+ 
+ul, ol { margin-bottom: 21px;}
+ul ul, ul ol,
+ol ol, ol ul { margin: 7px 0 7px 30px; }
+ul ul li, ul ol li,
+ol ol li, ol ul li { margin-bottom: 7px; }
+li { line-height: 21px; margin-bottom: 14px; }
+
+.icon {
+	font-family: "WebSymbolsRegular";
+}
+
+
+/* #font-face
+================================================== */
+
+@font-face {
+	font-family: 'WebSymbolsRegular';
+	src: 	url("../fonts/websymbols/websymbols-regular-webfont.eot");
+	src: 	url("../fonts/websymbols/websymbols-regular-webfont.eot?#iefix") format('embedded-opentype'),	
+			url("../fonts/websymbols/websymbols-regular-webfont.woff") format('woff'),
+			url("../fonts/websymbols/websymbols-regular-webfont.ttf") format('truetype'),
+			url("../fonts/websymbols/websymbols-regular-webfont.svg#WebSymbolsRegular") format('svg');						
+}
+
+
+
+/* #Site Styles
+================================================== */
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+
+/* bands */
+
+
+.header {
+	position: fixed;
+	z-index: 400;
+	width: 100%;
+	background: url(../img/plaid.png) repeat 0 0;
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+header.main {
+	padding: 7px 0;
+}
+
+header h1.logo {
+	margin: 7px 0 0 0;
+	float: left;
+}
+
+header h1.logo a {
+	margin: 0;
+	padding: 0;
+	width: 183px;
+	height: 63px;
+	display: block;
+	background: url(../img/sprite.png) no-repeat 0 0;
+	
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+}
+
+header nav {
+	float: right;
+	margin-top: 22px;
+}
+
+header nav ul li {
+	display: inline;
+	padding: 0 7px;
+	font-size: 18px;
+	font-weight: 900;
+	color: #141414;
+	text-shadow: rgba(255,255,255,0.9) 1px 1px 3px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	margin: 0px 7px 0 7px;
+	padding: 7px 21px 10px 21px;
+}
+
+header nav ul li.item a:hover,
+header nav ul li.item a:active,
+header nav ul li.item a.selected {
+	color: #141414;
+/*	border-bottom: 4px solid #990000; */
+	border-bottom: 4px solid #145f70;
+}
+
+header nav ul li .highlight {
+	font-weight: 700;
+}
+
+header nav a.apply {
+	color: #fff;
+	text-shadow: none;
+/*	text-shadow: rgba(0,0,0,0.9) 1px 1px 3px; */
+/*	background: #145f70; */
+	background: #04b2d9;
+	
+	-webkit-transition: background-color 0.15s ease-in-out;
+	-moz-transition: background-color 0.15s ease-in-out;
+	-o-transition: background-color 0.15s ease-in-out;
+	transition: background-color 0.15s ease-in-out;
+
+/*	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #066294;
+	*/
+	
+/*	
+	-webkit-box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+	-moz-box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+	box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+	
+	background-image: linear-gradient(bottom, rgb(0,123,189) 0%, rgb(0,196,255) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(0,123,189) 0%, rgb(0,196,255) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(0,123,189) 0%, rgb(0,196,255) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(0,123,189) 0%, rgb(0,196,255) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(0,123,189) 0%, rgb(0,196,255) 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(0,123,189)),
+		color-stop(1, rgb(0,196,255))
+	);
+*/	
+}
+
+header nav a.apply:hover {
+	background: #145f70;
+
+
+/* 
+background-image: linear-gradient(bottom, rgb(3,171,255) 0%, rgb(0,184,235) 100%);
+background-image: -o-linear-gradient(bottom, rgb(3,171,255) 0%, rgb(0,184,235) 100%);
+background-image: -moz-linear-gradient(bottom, rgb(3,171,255) 0%, rgb(0,184,235) 100%);
+background-image: -webkit-linear-gradient(bottom, rgb(3,171,255) 0%, rgb(0,184,235) 100%);
+background-image: -ms-linear-gradient(bottom, rgb(3,171,255) 0%, rgb(0,184,235) 100%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(3,171,255)),
+	color-stop(1, rgb(0,184,235))
+);
+
+*/
+}

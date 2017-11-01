@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Imprint | Learn to code in Berlin | Stackademy</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/entypo.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.css">	
+	<link rel="stylesheet" href="stylesheets/style.css">
+	
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
+
+	<!--[if IE]>
+	<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Lato:400italic" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css">	
+	<link href="http://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Lato:700italic" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet" type="text/css">
+	<![endif]-->
+
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="stylesheets/entypo-ie7.css">
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+
+	<!-- JS
+	================================================== -->
+	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-2.0.0.min.js"></script>
+	<script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js/jquery.min.js"><\/script>')</script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.pack.min.js"></script>	
+	<script type="text/javascript" src="js/retina.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	
+	<!-- ** segment.io **
+	<script type="text/javascript">
+		 var analytics=analytics||[];(function(){var e=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group"],t=function(e){return function(){analytics.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var n=0;n<e.length;n++)analytics[e[n]]=t(e[n])})(),analytics.load=function(e){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+e+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)};
+		 analytics.load("7p2lpn7na7");
+	</script>
+	-->
+
+
+	<!-- Google Analytics
+	================================================== -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-40659788-1', 'stackademy.com');
+	  ga('send', 'pageview');
+	  ga('set', 'anonymizeIp', true);
+
+	</script>
+
+
+</head>
+<body class="index">
+
+	<div class="sticky">
+		<div class="band header">
+			<header class="container main clearfix">
+				<div class="sixteen columns">
+					<h1 class="logo"><a href="index.html">Stackademy</a></h1>
+					<nav class="navigation">
+						<ul>
+							<!-- <li class="item"><a href="#">Home</a></li> -->
+							<li class="item"><a href="faqs.html">FAQs</a></li>
+							<li class="item"><a class="anchorLink" href="#contact">Contact</li></a>	
+							<li class="item omega"><a class="apply omega" href="apply.html">Apply</a></li>
+						</ul>															
+
+					</nav>
+				</div>
+			</header><!-- end container -->
+		</div><!-- end band -->	
+	</div>
+	
+	<div class="band section liner anchorTarget" id="top" name="top">
+		<section class="container">
+			<div class="eight columns">
+			</div> <!-- end ten -->
+		</section>
+	</div>
+	
+	<div class="band section content" id="imprint">
+		<section class="container">
+			<div class="eight columns">
+				<h2 class="eheading">Impressum</h2>
+				<hr />
+				<p>verantwortlich:</p>
+				<p class="border">
+				<strong>Jonas Knipper</strong><br />
+				Weinbergsweg 7 <br />
+				10119 Berlin <br /></p>
+				<p>Tel. +49 30 120 644 26</p>
+				<p>impressum.stackademy(-at-)robocomobo.com</p>
+				<p>USt.ID-Nr. DE282636251</p>		
+			</div>
+		</section>
+	</div>
+	
+	<div class="band section">
+		<section class="container">
+			<div class="sixteen columns filler">
+			</div> <!-- end sixteen -->
+		</section>
+	</div>	
+
+
+<div class="band footer">
+	<footer class="primaryfooter container main">					
+		<div class="six columns flogo">
+			<h3 class="logo"><a class="anchorLink" href="#top">Stackademy</a> </h3>				
+		</div>
+		
+				
+		<div class="sixteen columns" id="contact">
+			<ul id="navrow">
+				<li class="footerlink"><a href="faqs.html">FAQs</a></li>
+				<!-- <li class="footerlink"><a href="about/">About us</a></li>  -->
+				<li class="footerlink"><a class="blue" href="apply.html">Apply!</a></li>							
+			</ul>
+			<ul class="ful">
+				<li class="contact linked"><a href="https://www.twitter.com/stackademy" target="_blank"><span class="entypo twitter">t</span></a></li>		
+				<li class="contact linked">Contact <span class="eml"><script type="text/javascript">eval(unescape("%6b%63%74%72%71%39%32%3d%5b%27%25%36%38%25%36%35%25%36%63%25%36%63%25%36%66%27%2c%5b%27%25%36%33%25%36%66%25%36%64%27%2c%27%25%37%33%25%37%34%25%36%31%25%36%33%25%36%62%25%36%31%25%36%34%25%36%35%25%36%64%25%37%39%27%5d%2e%72%65%76%65%72%73%65%28%29%2e%6a%6f%69%6e%28%27%2e%27%29%5d%2e%6a%6f%69%6e%28%27%40%27%29%3b%6f%6d%63%75%67%30%35%3d%75%6e%65%73%63%61%70%65%28%6b%63%74%72%71%39%32%29%3b%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%6f%6d%63%75%67%30%35%2e%6c%69%6e%6b%28%27%6d%61%69%27%2b%27%6c%74%6f%3a%27%2b%6b%63%74%72%71%39%32%29%29%3b"));</script></span></li>							
+			</ul>
+		</div>		
+	</footer>
+	
+	<footer class="secondaryfooter">
+		<div class="container main">
+			<div class="eight columns fimp">
+				<span class="impr linked"><a href="imprint.html">Imprint<span class="separator"> / </span>Impressum</a></span>		
+				<span class="prvcy linked"><a href="privacy.html">Privacy policy<span class="separator"> / </span>Datenschutzerkl&auml;rung</a></span>						
+			</div>
+			<div class="eight columns cc">
+				A<a href="" target="_blank"><img class="robologo" src="img/robocomobo.svg" width="auto" height="12" alt="robocomobo"/></a> site.
+			</div>
+		</div>
+	</footer>
+	<!-- end container -->
+</div><!-- end footer band -->
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>	
